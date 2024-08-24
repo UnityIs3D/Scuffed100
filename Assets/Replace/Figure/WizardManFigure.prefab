@@ -3888,6 +3888,7 @@ MonoBehaviour:
   Duration: 60
   WizardManPrefab: {fileID: 2096884265930480425, guid: 44e28dad9324749baaf2997b4de71c86,
     type: 3}
+  modelSkin: {fileID: 5347022057677536322}
 --- !u!1 &7131843440625850146
 GameObject:
   m_ObjectHideFlags: 0

@@ -962,7 +962,6 @@ GameObject:
   - component: {fileID: 8079859505636290961}
   - component: {fileID: 9088243171332995166}
   - component: {fileID: 9030677036007604072}
-  - component: {fileID: 1349391779734376281}
   m_Layer: 0
   m_Name: Cyclops
   m_TagString: Player
@@ -1076,26 +1075,8 @@ MonoBehaviour:
   animationTriggerDistance: 22
   cyclopsModel: {fileID: 2073340238153661608}
   LaserCollider: {fileID: 51309025868724532}
---- !u!114 &1349391779734376281
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2869140329171520857}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1751c4189e4824a7c970d3629a6943ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 999
-  currentHealth: 0
-  takeDamage: 10
-  knockbackForce: 666
-  knockbackDuration: 1.2
-  yellowBlood: {fileID: 5975520906833158510}
-  replacement: {fileID: 7013189956170328450, guid: 15146d625e65048f682a5bd3df1fbaf8,
-    type: 3}
+  minSpeed: 18
+  maxSpeed: 25
 --- !u!1 &3289224883874987434
 GameObject:
   m_ObjectHideFlags: 0
@@ -3970,12 +3951,6 @@ PrefabInstance:
 --- !u!4 &3909726252222189925 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2180637809462022016, guid: 682e6e4b78cfc498fa734820a52334c6,
-    type: 3}
-  m_PrefabInstance: {fileID: 2882600385120050917}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &5975520906833158510 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8857557225301475211, guid: 682e6e4b78cfc498fa734820a52334c6,
     type: 3}
   m_PrefabInstance: {fileID: 2882600385120050917}
   m_PrefabAsset: {fileID: 0}

@@ -6866,7 +6866,7 @@ MonoBehaviour:
   skinRenderer: {fileID: 6834744800630971176}
   helmetRenderer: {fileID: 7395447705120423411}
   hitMaterial: {fileID: 2100000, guid: 23fbc0f113ca2492182a2d44c81634ba, type: 2}
-  dropChance: 0.5
+  dropChance: 0.45
   hurtHayden: 5
 --- !u!54 &1425639909606662985
 Rigidbody:

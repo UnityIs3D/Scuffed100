@@ -817,7 +817,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  maxHealth: 2
+  maxHealth: 5
   minecraftSound: {fileID: 6670037964357403674}
   screenBloodEffect: {fileID: 5315232808197828639}
   replacement: {fileID: 3997145652453692542, guid: 8d8324089712442b1b6dc424e6ad2e88,

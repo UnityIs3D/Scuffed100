@@ -13142,6 +13142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 567539186744641739}
   - component: {fileID: 2832121609116673829}
+  - component: {fileID: 3177401134771919475}
   m_Layer: 0
   m_Name: DeadJerry
   m_TagString: Untagged
@@ -13188,6 +13189,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieTime: 7
+--- !u!114 &3177401134771919475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7462956117642355901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd7c34fad34ff4dac825a6347f49fa4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whatever: {fileID: 788280932813310811, guid: 4f24d4da169ff43db912494b0384bdaf, type: 3}
+  dropChance: 0.33
 --- !u!1 &7607595899647242768
 GameObject:
   m_ObjectHideFlags: 0

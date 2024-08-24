@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5734320653174077392}
   - component: {fileID: 333907726586978800}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gus.025
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1543811316185751761}
   - component: {fileID: 5389525817404275135}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gus.017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -186,7 +186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4772946130088727101}
   - component: {fileID: 5277553347536990555}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gus.022
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -273,7 +273,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2429389887834903603}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -305,7 +305,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 967822657268034386}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: eyeBallTHISJOINT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -337,7 +337,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2325248294566471980}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -370,7 +370,7 @@ GameObject:
   m_Component:
   - component: {fileID: 556238704841453313}
   - component: {fileID: 4444794108092308393}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gus.026
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -457,7 +457,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7333995630409601379}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -489,7 +489,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2401813402518271067}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: tailTip_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -520,7 +520,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5075598560168029574}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: joint5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -553,7 +553,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6556672885812228144}
   - component: {fileID: 5279421595902817826}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gus.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -643,7 +643,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4414014732225454463}
   - component: {fileID: 601300854905363393}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gus.020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -731,7 +731,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3295498195988951274}
   - component: {fileID: 30369162786649959}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gus.013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -817,7 +817,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4956053491220425520}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -850,7 +850,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7325766717877149351}
   - component: {fileID: 2648546896725529838}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gus.016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -937,7 +937,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1597750232700307307}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -968,7 +968,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5258831999647016298}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: joint8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1002,7 +1002,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8681740985312840660}
   - component: {fileID: 2124581960284995234}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gus.028
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1106,7 +1106,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 419866402819086309}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: joint6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1139,7 +1139,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6073950333817878960}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1171,7 +1171,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3442360394150856854}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1206,7 +1206,7 @@ GameObject:
   - component: {fileID: 6006955348685937217}
   - component: {fileID: 4253005849284812237}
   - component: {fileID: 7953151245832247219}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pop-Wizard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1297,7 +1297,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5243180069108108962}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Spine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1331,7 +1331,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9197139762404040574}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: joint3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1363,7 +1363,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4183947546339777345}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: NOTthisJoint_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1394,7 +1394,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3228478891587481858}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: NOTthisJoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1426,7 +1426,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6081343818102672355}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftToe_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1457,7 +1457,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6096872936417548565}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1490,7 +1490,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4937079518123972395}
   - component: {fileID: 4436774806210698827}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gus.021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1577,7 +1577,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4163765660633905413}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1609,7 +1609,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9134090541554775033}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightToe_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1642,7 +1642,7 @@ GameObject:
   - component: {fileID: 6985977052320076756}
   - component: {fileID: 7825466785854140828}
   - component: {fileID: 6707684804494707855}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6528,7 +6528,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5639908416291577819}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6561,7 +6561,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6470249348356022982}
   - component: {fileID: 4581484111440061193}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gus.024
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6648,7 +6648,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1664428789702973399}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: joint10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6681,7 +6681,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 799151370637199927}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6715,7 +6715,7 @@ GameObject:
   - component: {fileID: 292872457638516158}
   - component: {fileID: 8895481912309406840}
   - component: {fileID: 5108566613494336707}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11603,7 +11603,7 @@ GameObject:
   - component: {fileID: 4668894206198128110}
   - component: {fileID: 6674130530294955296}
   - component: {fileID: 3132150835441296634}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: YellowShield
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16492,7 +16492,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8829349432121069107}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16525,7 +16525,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6791863153839130376}
   - component: {fileID: 1443112371226259539}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gus.012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16612,7 +16612,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3808757405787482188}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16644,7 +16644,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5003078786481258701}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16678,7 +16678,7 @@ GameObject:
   - component: {fileID: 6229421391699172062}
   - component: {fileID: 3442278247825577007}
   - component: {fileID: 6900485224930076620}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16759,7 +16759,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7047716998055246700}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: joint4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16792,7 +16792,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4411141504866444473}
   - component: {fileID: 126025046006948637}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gus.015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16879,7 +16879,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7583211535193260834}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16911,7 +16911,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7293199227476323330}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16943,7 +16943,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2459258836278504254}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16975,7 +16975,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4082223153100073922}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17009,7 +17009,7 @@ GameObject:
   - component: {fileID: 1521014725546970392}
   - component: {fileID: 5797935495052071467}
   - component: {fileID: 7291548019137686713}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: eyelashes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17090,7 +17090,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5374292603932415811}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EyeStalkIKHANDLE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17122,7 +17122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7024913296186249980}
   - component: {fileID: 2194811603860313056}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GusModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17208,7 +17208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1762381382560561109}
   - component: {fileID: 6310266080395122981}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gus.019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17296,7 +17296,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8570540833991586256}
   - component: {fileID: 908340621670489370}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GusAttackController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17342,7 +17342,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5072845138201932496}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: joint7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17375,7 +17375,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 351647972873570674}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17409,7 +17409,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5904602659994068099}
   - component: {fileID: 7341625818909631592}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gus.014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17496,7 +17496,7 @@ GameObject:
   m_Component:
   - component: {fileID: 503086630397077961}
   - component: {fileID: 8400833202115411887}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gus.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17585,7 +17585,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2889422719604372307}
   - component: {fileID: 5897364783687170406}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gus.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17689,7 +17689,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7483422268372998229}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17722,7 +17722,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1189216059646927507}
   - component: {fileID: 8103818035814062214}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: eyeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17819,7 +17819,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1098094472198657979}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17853,7 +17853,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5150010318507114281}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: joint9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17885,7 +17885,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 802823864151443788}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17918,7 +17918,7 @@ GameObject:
   - component: {fileID: 4572897078943696895}
   - component: {fileID: 8905600457633906861}
   - component: {fileID: 2460882927650047992}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trails
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22813,7 +22813,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8081285788604156890}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22846,7 +22846,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6959546834338488856}
   - component: {fileID: 3413248660882875458}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gus.033
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22933,7 +22933,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6532325320133028903}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22966,7 +22966,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1763666355444356993}
   - component: {fileID: 2391118445886466620}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gus.027
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23053,7 +23053,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1513230925507807593}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: tailBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23086,7 +23086,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4767202785259413471}
   - component: {fileID: 5278980048048095554}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gus.034
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23174,7 +23174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4796376897768557569}
   - component: {fileID: 1434981585753873998}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: delete.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23259,7 +23259,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4558373850236299024}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23291,7 +23291,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1839666201246964412}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23324,7 +23324,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9072816454712418167}
   - component: {fileID: 4956804630242517527}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gus.011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23412,7 +23412,7 @@ GameObject:
   m_Component:
   - component: {fileID: 179701228606196674}
   - component: {fileID: 3446900629593267578}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: eyeLid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23510,7 +23510,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7661146337977930949}
   - component: {fileID: 3925972236313608037}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gus.032
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23596,7 +23596,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7691169576443990617}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:HeadTop_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23628,7 +23628,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4899609688541278753}
   - component: {fileID: 6596481175096884936}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gus.036
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23714,7 +23714,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8157599408501063662}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: tailTip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23747,7 +23747,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2295621234990697070}
   - component: {fileID: 1189541837352090859}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gus.031
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23833,7 +23833,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1260287554970605110}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: wizard hat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23865,7 +23865,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 510096471443624221}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23899,7 +23899,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5546327728463229027}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: eyeLid1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23932,7 +23932,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6066992439882472532}
   - component: {fileID: 1605381777805217514}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gus.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24021,7 +24021,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1703646934348709335}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24053,7 +24053,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8573777205650567744}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24085,7 +24085,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3955083442112831992}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: MamaEyeball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24122,7 +24122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6220753697538669183}
   - component: {fileID: 8237153268399885602}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gus.023
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24211,7 +24211,7 @@ GameObject:
   - component: {fileID: 5238670250103948370}
   - component: {fileID: 4367196291738261927}
   - component: {fileID: 4819063333123712075}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cape (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24292,7 +24292,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2182825080871568237}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24325,7 +24325,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4092310698958368115}
   - component: {fileID: 4553797517594913464}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: delete.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24411,7 +24411,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8804665658623844770}
   - component: {fileID: 9044198022948693754}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: delete.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24498,7 +24498,7 @@ GameObject:
   m_Component:
   - component: {fileID: 77330114332421234}
   - component: {fileID: 2453691717243934247}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gus.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24589,7 +24589,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6189429752875904723}
   - component: {fileID: 5224825820370030539}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gus.018
   m_TagString: Untagged
   m_Icon: {fileID: 0}

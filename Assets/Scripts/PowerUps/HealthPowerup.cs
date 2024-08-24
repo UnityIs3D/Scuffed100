@@ -8,7 +8,7 @@ public class HealthPowerup : BasePowerup
     protected override void StartPowerup()
     {
         healthPlayerScript = GameObject.FindGameObjectWithTag("Player").GetComponent<HealthDamage>();
-        healthPlayerScript.TakeDamage(-20);
+        healthPlayerScript.TakeDamage(-10);
     }
 
     protected override void StopPowerup()

@@ -127197,7 +127197,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7696609407809579929
 Transform:
   m_ObjectHideFlags: 0
@@ -127252,6 +127252,8 @@ MonoBehaviour:
   bossDance: {fileID: 4127960914493609661}
   bossWalkScript: {fileID: 6897753446946373548}
   playerHayden: {fileID: 0}
+  deflectFireballDirection: {fileID: 0}
+  knockbackForce: 2.5
 --- !u!136 &3581487937016638190
 CapsuleCollider:
   m_ObjectHideFlags: 0

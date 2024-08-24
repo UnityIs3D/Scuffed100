@@ -24635,7 +24635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee177e5ce8a6d4100ace379fde1b0cb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 22
+  speed: 16
   dieFireBall: 6
   explosionEffectPrefab: {fileID: 2698224933247667207, guid: 8fd19da21a0164ffbbcfac83dce9b982,
     type: 3}

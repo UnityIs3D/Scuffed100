@@ -34045,7 +34045,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7755417518408947206}
   - component: {fileID: 3337885922027429739}
-  - component: {fileID: 8038745162323304615}
+  - component: {fileID: 4457229306062023815}
   m_Layer: 0
   m_Name: DeadAero
   m_TagString: Untagged
@@ -34085,7 +34085,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieTime: 12
---- !u!114 &8038745162323304615
+--- !u!114 &4457229306062023815
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -34094,12 +34094,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 4967174108684683414}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd7c34fad34ff4dac825a6347f49fa4a, type: 3}
+  m_Script: {fileID: 11500000, guid: ce050c00aa9c840dbba1e029a1b603c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  whatever: {fileID: 3952707826769130179, guid: 72019e69f8bef409cab526a54fb9828e,
-    type: 3}
-  dropChance: 0.5
+  whatever:
+  - {fileID: 788280932813310811, guid: 4f24d4da169ff43db912494b0384bdaf, type: 3}
+  - {fileID: 3883093393647860654, guid: 3fc587c9b7366493dae3731381e1fe98, type: 3}
+  dropChance: 0.33
 --- !u!1 &5101651281229963638
 GameObject:
   m_ObjectHideFlags: 0

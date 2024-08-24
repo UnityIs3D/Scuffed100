@@ -23,13 +23,13 @@ public class Timer : MonoBehaviour
     public GameObject hayden;
     public GameObject bossNameTitle;
 
-    public GameObject deflectFireball;
+    
 
 
 
     void Start()
     {
-        deflectFireball.SetActive(false);
+        
         bossNameTitle.SetActive(false);
         // Initialize the timer
         timeElapsed = 0f;
@@ -58,11 +58,7 @@ public class Timer : MonoBehaviour
             homeButton.onClick.AddListener(GoToMainMenu);
         }
 
-        if (boss.activeSelf)
-        {
-            StartCoroutine(DurationFireBallDeflect());
-            bossNameTitle.SetActive(true);
-        }
+      
     }
 
     void Update()
@@ -150,11 +146,5 @@ public class Timer : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
-    private IEnumerator DurationFireBallDeflect()
-    {
-        deflectFireball.SetActive(true);
-        yield return new WaitForSeconds(3);
-        deflectFireball.SetActive(false);
-
-    }
+   
 }

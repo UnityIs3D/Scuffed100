@@ -8,8 +8,13 @@ public class BoxerManPowerup : BasePowerup
     private GameObject instantiatedBoxer; // Store reference to instantiated object
     private string spawnPointName = "MegaSpawnPoint"; // Name of the spawn point GameObject
 
+    public GameObject modelCapsule;
+    public GameObject figureToy;
+
     protected override void StartPowerup()
     {
+        modelCapsule.SetActive(false);
+        figureToy.SetActive(false);
 
         GameObject spawnPoint = GameObject.Find(spawnPointName);
 

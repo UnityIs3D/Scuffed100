@@ -1217,10 +1217,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a086fc25404cc445aa82c16f7201e492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 0
+  maxHealth: 0
   minecraftSound: {fileID: 1557659961372800477}
   screenBloodEffect: {fileID: 4310674043882077081}
   replacement: {fileID: 719846771858171051, guid: 257af3a818b97486983511be5e88d52f,
     type: 3}
+  hurtHayden: 3
 --- !u!114 &6769104558327452161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1236,7 +1239,6 @@ MonoBehaviour:
   jumpForce: 22
   jumpInterval: 1
   jumpHeight: 3
-  rb: {fileID: 4946708043230079886}
   eMja: {fileID: 5957081212324096089}
 --- !u!136 &1374517589648810627
 CapsuleCollider:
@@ -1310,7 +1312,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: edc8263a76cbe4aa38db12e1a82c0557, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 92b0331f2fe984d69bd106dc628ab99d, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

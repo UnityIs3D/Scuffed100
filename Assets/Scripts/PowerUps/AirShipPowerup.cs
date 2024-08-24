@@ -6,8 +6,17 @@ public class AirShipPowerup : BasePowerup
 {
     private GameObject gruAirShip;
 
+    public SkinnedMeshRenderer skin;
+
+    public GameObject fireTrail1;
+    public GameObject fireTrail2;
+
     protected override void StartPowerup()
     {
+        fireTrail1.SetActive(false);
+        fireTrail2.SetActive(false);
+        skin.enabled = false;
+
         gruAirShip = GameObject.Find("ActiveGruAirShip").transform.Find("GruAirShip").gameObject;
 
         this.gameObject.GetComponent<BoxCollider>().enabled = false;//FakeAirShip small box collider off

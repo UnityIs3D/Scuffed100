@@ -13,10 +13,12 @@ public class OpenMenu : MonoBehaviour
     public AudioSource mouseClick;
 
     public PlayerMovement playerMovement;
+    public GunSystem gunSystem;
 
     private void Start()
     {
         playerMovement.enabled = true;
+        gunSystem.enabled = true;
         Time.timeScale = 1f;
 
         // Ensure buttons are interactable
@@ -33,12 +35,13 @@ public class OpenMenu : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P))
         {
             if (isPaused)
             {
                 Resume();
                 Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
             }
             else
             {
@@ -50,19 +53,23 @@ public class OpenMenu : MonoBehaviour
 
     public void Resume()
     {
+
+        Cursor.visible = false;
         playerMovement.enabled = true;
+        gunSystem.enabled = true;
         if (mouseClick != null) mouseClick.Play();
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         isPaused = false;
     }
 
-    void Pause()
+    public void Pause()
     {
         Cursor.visible = true;
         if (mouseClick != null) mouseClick.Play();
         pauseMenuUI.SetActive(true);
         isPaused = true;
+        gunSystem.enabled = false;
         playerMovement.enabled = false;
         Time.timeScale = 0f;
     }

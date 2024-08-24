@@ -3579,8 +3579,8 @@ MonoBehaviour:
   switchInterval: 0
   animationTriggerDistance: 5
   stuartKnifeModel: {fileID: 738168546707467579}
-  minSpeed: 18
-  maxSpeed: 23
+  minSpeed: 15
+  maxSpeed: 20
 --- !u!114 &6607197698710312055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3601,7 +3601,6 @@ MonoBehaviour:
     type: 3}
   knockHaydenForce: 100
   damageHayden: 5
-  enemyHealth: 1000
 --- !u!114 &2349500691688895949
 MonoBehaviour:
   m_ObjectHideFlags: 0

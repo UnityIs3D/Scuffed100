@@ -1567,10 +1567,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5eb465fb3c99743d09dccb4711b55f3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 0
+  maxHealth: 25
   minecraftSound: {fileID: 8986857354505819921}
   screenBloodEffect: {fileID: 5434877539907424512}
   replacement: {fileID: 5816415670916356013, guid: 9b2ffbb2ee55c4b1ea5a79f6c0c23029,
     type: 3}
+  heartReplacement: {fileID: 385281554589543122, guid: 0cb1b3c773235461f9d2fa54b8614b53,
+    type: 3}
+  dropChance: 0.3
+  hurtHayden: 1
 --- !u!82 &8986857354505819921
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1581,7 +1587,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: edc8263a76cbe4aa38db12e1a82c0557, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 92b0331f2fe984d69bd106dc628ab99d, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1680,6 +1686,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   followTimeLimit: 0
+  minSpeed: 17
+  maxSpeed: 20
 --- !u!1 &7394211055709517635
 GameObject:
   m_ObjectHideFlags: 0

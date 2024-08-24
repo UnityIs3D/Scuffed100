@@ -350,7 +350,7 @@ MonoBehaviour:
   animationTriggerDistance: 12
   daveModel: {fileID: 1382886071992789259}
   minSpeed: 15
-  maxSpeed: 19
+  maxSpeed: 20
 --- !u!195 &1036912556358756995
 NavMeshAgent:
   m_ObjectHideFlags: 0

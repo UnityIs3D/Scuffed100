@@ -4940,6 +4940,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Duration: 22
+  skin: {fileID: 1375316147952307595}
+  fireTrail1: {fileID: 4648459275297690439}
+  fireTrail2: {fileID: 7443404479331116841}
 --- !u!114 &3835428369871704770
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5053,8 +5056,8 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3846018093981099296, guid: 8aae28a14f5d7417392dda8aed6582d9, type: 3}
-  - {fileID: -6478536213147159724, guid: 8aae28a14f5d7417392dda8aed6582d9, type: 3}
+  - {fileID: 2100000, guid: e368617e35799449cb79178bad478acb, type: 2}
+  - {fileID: -2429204369389994415, guid: 2ecefabaf4e4240088d9590790f8b50b, type: 3}
   - {fileID: 4874126678125670354, guid: 8aae28a14f5d7417392dda8aed6582d9, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0

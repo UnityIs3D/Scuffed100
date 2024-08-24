@@ -825,6 +825,8 @@ MonoBehaviour:
   Duration: 60
   boxerManPrefab: {fileID: 2636161094046408715, guid: 8eed6c04fe7834760862545f8e321ded,
     type: 3}
+  modelCapsule: {fileID: 7009879761980958355}
+  figureToy: {fileID: 4353118268705323631}
 --- !u!1 &3721698993773476609
 GameObject:
   m_ObjectHideFlags: 0

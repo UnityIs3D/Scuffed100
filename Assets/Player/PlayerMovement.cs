@@ -256,6 +256,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private float desiredX;
+
     private void Look()
     {
         float mouseX = Input.GetAxis("Mouse X") * sensitivity * Time.fixedDeltaTime * sensMultiplier;

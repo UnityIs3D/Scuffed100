@@ -30,12 +30,15 @@ public class Boss : MonoBehaviour
     public Boss bossWalkScript;
     public GameObject playerHayden;
 
+    public GameObject deflectFireballDirection;
+    
+
     
     
 
     private void Start()
     {
-        
+        StartCoroutine(DurationFireBallDeflect());
 
         rb = GetComponent<Rigidbody>();
         fireBreath.SetActive(false);
@@ -182,7 +185,45 @@ public class Boss : MonoBehaviour
             yield return new WaitForSeconds(7f);
 
             isFlying = true;
-            yield return new WaitForSeconds(7f);
+            yield return new WaitForSeconds(22f);
         }
     }
+
+    public float knockbackForce = 88;
+
+
+
+    private void OnCollisionStay(Collision collision)
+    {
+        if(collision.gameObject.CompareTag("Sword"))
+        {
+            ApplyKnockback(collision);
+        }
+    }
+
+
+    private void ApplyKnockback(Collision collision)
+    {
+        Rigidbody rb = GetComponent<Rigidbody>();
+        if (rb != null)
+        {
+            // Calculate the direction of the knockback force
+            Vector3 knockbackDirection = (transform.position - collision.transform.position).normalized;
+
+            // Apply force to the Rigidbody
+            rb.AddForce(knockbackDirection * knockbackForce, ForceMode.Impulse);
+        }
+    }
+
+    private IEnumerator DurationFireBallDeflect()
+    {
+        deflectFireballDirection.SetActive(true);
+        yield return new WaitForSeconds(5);
+        deflectFireballDirection.SetActive(false);
+        yield break;
+
+    }
+
+
+
 }

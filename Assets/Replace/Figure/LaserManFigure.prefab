@@ -30737,6 +30737,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Duration: 60
   cyclops: {fileID: 333999717965170461, guid: be2b6cedda99a4be3a78a1917bdc7b24, type: 3}
+  modelCapsule: {fileID: 3449199669558116017}
+  toyFigure: {fileID: 4965600029496282558}
 --- !u!1 &6830887954807754452
 GameObject:
   m_ObjectHideFlags: 0

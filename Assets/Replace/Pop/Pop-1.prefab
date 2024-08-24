@@ -7221,7 +7221,7 @@ MonoBehaviour:
   helmetRenderer: {fileID: 470960190900380342}
   hitMaterial: {fileID: 2100000, guid: 23fbc0f113ca2492182a2d44c81634ba, type: 2}
   hurtHayden: 3
-  dropChance: 0.5
+  dropChance: 0.33
 --- !u!82 &3819461286436500162
 AudioSource:
   m_ObjectHideFlags: 0

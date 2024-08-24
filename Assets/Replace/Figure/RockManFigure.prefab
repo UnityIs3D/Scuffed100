@@ -119,6 +119,8 @@ MonoBehaviour:
   Duration: 60
   rockManPrefab: {fileID: 766953077134363287, guid: 5d333ac874608427fa2d365d1531494e,
     type: 3}
+  modelCapsule: {fileID: 3343657374868581463}
+  toyFigure: {fileID: 5725555983151415708}
 --- !u!1 &213467792105549339
 GameObject:
   m_ObjectHideFlags: 0

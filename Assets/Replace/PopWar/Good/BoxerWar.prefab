@@ -1954,8 +1954,8 @@ MonoBehaviour:
     type: 3}
   shootingPoint: {fileID: 5667319594162082946}
   bulletForce: 80
-  minSpeed: 12
-  maxSpeed: 15
+  minSpeed: 17
+  maxSpeed: 22
 --- !u!54 &1895731056460834087
 Rigidbody:
   m_ObjectHideFlags: 0

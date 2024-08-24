@@ -8,9 +8,14 @@ public class RockManPowerup : BasePowerup
     private GameObject instantiatedRockMan; // Store reference to instantiated object
     private string spawnPointName = "MegaSpawnPoint"; // Name of the spawn point GameObject
 
+    public GameObject modelCapsule;
+    public GameObject toyFigure;
+
     protected override void StartPowerup()
     {
-        
+        modelCapsule.SetActive(false);
+        toyFigure.SetActive(false);
+
         GameObject spawnPoint = GameObject.Find(spawnPointName);
 
         if (rockManPrefab != null && spawnPoint != null)

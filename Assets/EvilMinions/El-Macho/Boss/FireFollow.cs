@@ -57,6 +57,7 @@ public class FireFollow : MonoBehaviour
     {
         GameObject boss = GameObject.Find("Boss");
 
+        speed = 80;
         if (boss == null)
         {
             Debug.Log("Boss not found");

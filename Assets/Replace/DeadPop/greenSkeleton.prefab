@@ -14685,7 +14685,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5849291062831670634}
   - component: {fileID: 7773168855332627529}
-  - component: {fileID: 585022039858170609}
+  - component: {fileID: 4313091404074560066}
   m_Layer: 0
   m_Name: greenSkeleton
   m_TagString: Untagged
@@ -14725,7 +14725,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieTime: 5
---- !u!114 &585022039858170609
+--- !u!114 &4313091404074560066
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14734,12 +14734,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 4033524950095439985}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd7c34fad34ff4dac825a6347f49fa4a, type: 3}
+  m_Script: {fileID: 11500000, guid: ce050c00aa9c840dbba1e029a1b603c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  whatever: {fileID: 3952707826769130179, guid: 72019e69f8bef409cab526a54fb9828e,
-    type: 3}
-  dropChance: 0.17
+  whatever:
+  - {fileID: 788280932813310811, guid: 4f24d4da169ff43db912494b0384bdaf, type: 3}
+  - {fileID: 3952707826769130179, guid: 72019e69f8bef409cab526a54fb9828e, type: 3}
+  - {fileID: 4211536527452399871, guid: ad303215172aa4a58a84d9acb60f57f3, type: 3}
+  dropChance: 0.26
 --- !u!1 &4704192488944757699
 GameObject:
   m_ObjectHideFlags: 0

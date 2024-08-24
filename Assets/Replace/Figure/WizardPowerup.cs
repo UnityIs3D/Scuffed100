@@ -8,9 +8,11 @@ public class WizardPowerup : BasePowerup
     private GameObject instantiatedWizard; // Store reference to instantiated object
     private string spawnPointName = "MegaSpawnPoint"; // Name of the spawn point GameObject
 
+    public GameObject modelSkin;
+
     protected override void StartPowerup()
     {
-
+        modelSkin.SetActive(false);
         GameObject spawnPoint = GameObject.Find(spawnPointName);
 
         if (WizardManPrefab != null && spawnPoint != null)

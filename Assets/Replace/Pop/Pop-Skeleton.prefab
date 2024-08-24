@@ -1667,7 +1667,7 @@ MonoBehaviour:
     type: 3}
   heartReplacement: {fileID: 788280932813310811, guid: 4f24d4da169ff43db912494b0384bdaf,
     type: 3}
-  dropChance: 0.11
+  dropChance: 0.33
   hurtHayden: 1
 --- !u!82 &1152805665368848211
 AudioSource:

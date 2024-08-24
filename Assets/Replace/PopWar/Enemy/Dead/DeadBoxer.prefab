@@ -4982,6 +4982,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2692554112652428719}
   - component: {fileID: 1915055983981485507}
+  - component: {fileID: 4559432167862850115}
   m_Layer: 0
   m_Name: DeadBoxer
   m_TagString: Untagged
@@ -5024,6 +5025,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dieTime: 9
+--- !u!114 &4559432167862850115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643983325354880199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd7c34fad34ff4dac825a6347f49fa4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whatever: {fileID: 788280932813310811, guid: 4f24d4da169ff43db912494b0384bdaf, type: 3}
+  dropChance: 0.33
 --- !u!1 &1820215265169530598
 GameObject:
   m_ObjectHideFlags: 0

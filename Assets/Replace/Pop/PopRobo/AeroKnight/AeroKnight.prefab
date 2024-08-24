@@ -35024,7 +35024,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   orbitRadius: 12
-  orbitSpeed: 12
+  orbitSpeed: 5
   heightOffset: 0
   stoppingDistance: 15
   bulletPrefab: {fileID: 6185865627686722615, guid: 9b4c5dcefa6a24d4ab310b95ca8a0293,
@@ -35047,7 +35047,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  maxHealth: 5
+  maxHealth: 3
   minecraftSound: {fileID: 4713679014558161018}
   screenBloodEffect: {fileID: 7777903684499250631}
   hurtHadyen: 10
