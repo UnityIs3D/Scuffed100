@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WarGame.unity
     guid: 69aaa89bf37554ba3835513c1bccc10a
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 4d01f359719504c678730f63d5648b04
   m_configObjects: {}
