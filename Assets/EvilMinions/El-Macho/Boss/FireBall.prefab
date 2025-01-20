@@ -24523,6 +24523,8 @@ MonoBehaviour:
   maxHealth: 1000000
   minecraftSound: {fileID: 9137843834413808886}
   screenBloodEffect: {fileID: 7282968525987070114}
+  greenBody: {fileID: 1643042209614323882, guid: d708d87253c7148ad858b2bf7b091783,
+    type: 3}
   replacementDeadBadGuy: {fileID: 9165494383467810894, guid: 8fd19da21a0164ffbbcfac83dce9b982,
     type: 3}
   knockHaydenForce: 120

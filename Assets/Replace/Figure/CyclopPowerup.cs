@@ -40,4 +40,6 @@ public class CyclopPowerup : BasePowerup
             Destroy(instantiatedCyclops);
         }
     }
+
+
 }

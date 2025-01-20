@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8346983983507068726}
   - component: {fileID: 4871679228290592017}
   - component: {fileID: 2734639078609447343}
+  - component: {fileID: -8158839488130844118}
   m_Layer: 0
   m_Name: PoopAmmo
   m_TagString: PoopAmmo
@@ -149,3 +150,16 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 856.5041, y: 549.6269, z: 371.5138}
   m_Center: {x: 1.10767, y: 239.83083, z: -61.28994}
+--- !u!114 &-8158839488130844118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5717863308835849031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6c37b7e0496b4a9ea89d6e01a279a42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dieTime: 10

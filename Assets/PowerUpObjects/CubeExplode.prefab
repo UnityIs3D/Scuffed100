@@ -142,6 +142,7 @@ MonoBehaviour:
   rb: {fileID: 6613586246858937745}
   throwForce: 80
   offset: {x: -3.17, y: 0.45, z: 4.45}
+  ethrowText: {fileID: 9021683619846273610}
   cubeExplodeScript: {fileID: 8951032618215587000}
 --- !u!54 &6613586246858937745
 Rigidbody:

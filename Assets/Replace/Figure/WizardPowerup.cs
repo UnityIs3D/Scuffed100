@@ -9,10 +9,12 @@ public class WizardPowerup : BasePowerup
     private string spawnPointName = "MegaSpawnPoint"; // Name of the spawn point GameObject
 
     public GameObject modelSkin;
+    public GameObject capsuleCell;
 
     protected override void StartPowerup()
     {
         modelSkin.SetActive(false);
+        capsuleCell.SetActive(false);
         GameObject spawnPoint = GameObject.Find(spawnPointName);
 
         if (WizardManPrefab != null && spawnPoint != null)
@@ -37,4 +39,5 @@ public class WizardPowerup : BasePowerup
             Destroy(instantiatedWizard);
         }
     }
+
 }

@@ -6,7 +6,6 @@ TagManager:
   tags:
   - FakeAirShip
   - FxTemporaire
-  - Heart
   - Purple
   - FakeFartGun
   - JellyAmmo
@@ -22,6 +21,11 @@ TagManager:
   - PoopAmmo
   - Hayden
   - GoodBall
+  - Wizard
+  - Marsh
+  - MMB
+  - HeartPump
+  - PoopCollider
   layers:
   - Default
   - TransparentFX

@@ -11,8 +11,9 @@ public class PickUpThrow : MonoBehaviour
     private bool isHeld = false;
     public float throwForce = 22f;
     public Vector3 offset = new Vector3(0f, 0f, 2f); // Distance from camera
+    public GameObject ethrowText;
 
-    
+
 
     // Activate the cubeExplode script
     public CubeExplode cubeExplodeScript; //💣💣💣💣💣💣💣💣
@@ -20,6 +21,13 @@ public class PickUpThrow : MonoBehaviour
     private void Start()
     {
         cubeExplodeScript.enabled = false;
+        StartCoroutine(CubeDieDelay());
+    }
+
+    private IEnumerator CubeDieDelay()
+    {
+        yield return new WaitForSeconds(7);
+        cubeExplodeScript.enabled = true;
     }
 
     private void Update()
@@ -39,6 +47,7 @@ public class PickUpThrow : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.E))//🌀🌀🌀🌀🌀🌀
             {
+                Destroy(ethrowText);
                 ThrowObject();
             }
 

@@ -65,5 +65,28 @@ public class HulkJump : MonoBehaviour
             scoreManager.HandleObjectDestroyed(gameObject);
         }
     }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.CompareTag("Marsh"))
+        {
+            // Disable the NavMeshAgent to stop pathfinding
+            
+
+            if (rb != null)
+            {
+                // Get the backward direction (opposite of the forward vector)
+                Vector3 backwardForce = -transform.forward * 30;  // Adjust for the backward force strength
+
+                // Get the upward direction (along the Y-axis)
+                Vector3 upwardForce = transform.up * 30;  // Adjust for the upward force strength
+
+                // Apply both backward and upward forces
+                rb.AddForce(backwardForce + upwardForce, ForceMode.Impulse);
+            }
+
+            
+        }
+    }
 }
 

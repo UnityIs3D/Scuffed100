@@ -762,6 +762,7 @@ GameObject:
   - component: {fileID: 1862255675059990125}
   - component: {fileID: 284840387255919877}
   - component: {fileID: 6670037964357403674}
+  - component: {fileID: 1776513210624769976}
   m_Layer: 0
   m_Name: Pop-Robo
   m_TagString: Purple
@@ -820,6 +821,8 @@ MonoBehaviour:
   maxHealth: 5
   minecraftSound: {fileID: 6670037964357403674}
   screenBloodEffect: {fileID: 5315232808197828639}
+  greenBody: {fileID: 6198506183186399486, guid: 439e2658e7c14471a9906540d40add52,
+    type: 3}
   replacement: {fileID: 3997145652453692542, guid: 8d8324089712442b1b6dc424e6ad2e88,
     type: 3}
   skinRenderer: {fileID: 4207591471402581073}
@@ -904,7 +907,7 @@ NavMeshAgent:
   m_AgentTypeID: 0
   m_Radius: 0.5
   m_Speed: 3.5
-  m_Acceleration: 55
+  m_Acceleration: 333
   avoidancePriority: 50
   m_AngularSpeed: 360
   m_StoppingDistance: 0
@@ -1032,6 +1035,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1776513210624769976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2210162863810624855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d1da01df27f04c33b27bcfaca393858, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navMeshAgent: {fileID: 1862255675059990125}
+  rb: {fileID: 1332276424197613438}
+  knockBackForce: 12
+  upWardForce: 12
+  deadBody: {fileID: 7013189956170328450, guid: 15146d625e65048f682a5bd3df1fbaf8,
+    type: 3}
 --- !u!1 &2362956791834622503
 GameObject:
   m_ObjectHideFlags: 0

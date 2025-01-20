@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 721443547094198945}
   - component: {fileID: 2076493229474594586}
   - component: {fileID: 6316936504072143273}
+  - component: {fileID: -1519708296604952157}
   m_Layer: 0
   m_Name: GLAmmo
   m_TagString: GLAmmo
@@ -147,3 +148,16 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 579.90485, y: 883.8697, z: 295.58487}
   m_Center: {x: -24.762337, y: 293.0328, z: -13.854408}
+--- !u!114 &-1519708296604952157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4211536527452399871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6c37b7e0496b4a9ea89d6e01a279a42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dieTime: 10

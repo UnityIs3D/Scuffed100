@@ -173,4 +173,17 @@ public class Aero : MonoBehaviour
             scoreManager.HandleObjectDestroyed(gameObject);
         }
     }
+
+    public GameObject deadBody;
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if(other.gameObject.CompareTag("Wizard")|| other.gameObject.CompareTag("Marsh"))
+        {
+            Instantiate(deadBody, transform.position, transform.rotation);
+
+            // Destroy the enemy game object
+            Destroy(gameObject);
+        }
+    }
 }

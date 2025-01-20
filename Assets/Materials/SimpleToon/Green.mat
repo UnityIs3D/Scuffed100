@@ -48,7 +48,7 @@ Material:
     - _SpecularStep: 0.15
     m_Colors:
     - _BaseColor: {r: 0.03613386, g: 0.26415092, b: 0.07228053, a: 1}
-    - _Color: {r: 0.03613386, g: 0.2641509, b: 0.072280504, a: 1}
+    - _Color: {r: 0.03613386, g: 0.26415092, b: 0.07228053, a: 1}
     - _HighColor: {r: 1, g: 1, b: 1, a: 1}
     - _RimColor: {r: 0, g: 0.3253193, b: 1, a: 1}
   m_BuildTextureStacks: []

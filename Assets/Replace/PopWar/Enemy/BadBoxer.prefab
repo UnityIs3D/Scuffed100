@@ -5817,7 +5817,6 @@ MonoBehaviour:
     type: 3}
   knockHaydenForce: 120
   damageHayden: 13
-  enemyHealth: 2500
 --- !u!82 &1352040791595644088
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6668,7 +6667,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 972db2bc198ce4b59b7462cc5c2a57fb, type: 2}
-  - {fileID: 2100000, guid: 23fbc0f113ca2492182a2d44c81634ba, type: 2}
+  - {fileID: 2100000, guid: a7480b6a3863b48a38ab60e95a5b932d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

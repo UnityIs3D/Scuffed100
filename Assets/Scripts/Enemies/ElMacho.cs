@@ -6,7 +6,6 @@ using UnityEngine.AI;
 
 public class ElMacho : BaseEnemy
 {
-    
 
     public Renderer skinRenderer;
     public Material hitMaterial;

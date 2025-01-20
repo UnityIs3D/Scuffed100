@@ -4940,7 +4940,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Duration: 22
-  skin: {fileID: 1375316147952307595}
+  skin: {fileID: 4259846989810551420}
   fireTrail1: {fileID: 4648459275297690439}
   fireTrail2: {fileID: 7443404479331116841}
 --- !u!114 &3835428369871704770
@@ -4975,8 +4975,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 4.080017, y: 4.160713, z: 3.041504}
+  m_Center: {x: 0.06707764, y: 4.820957, z: 0.39718628}
 --- !u!54 &8921641033186523770
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5015,7 +5015,7 @@ GameObject:
   - component: {fileID: 7388795385124293075}
   - component: {fileID: 1375316147952307595}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Skin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14716,7 +14716,7 @@ Transform:
   m_GameObject: {fileID: 6512920953910203319}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: 4.25, z: 0}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children:

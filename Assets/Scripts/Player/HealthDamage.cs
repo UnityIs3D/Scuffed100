@@ -5,8 +5,6 @@ using UnityEngine.UI;
 
 public class HealthDamage : MonoBehaviour
 {
-    
-
     public int maxHealth = 100;
     public int currentHealth;
     public TextMeshProUGUI heartNumberText;
@@ -14,12 +12,19 @@ public class HealthDamage : MonoBehaviour
     public Texture originalTexture;
     public Texture sadFace;
 
-    
+
 
     public void Start()
     {
-        currentHealth = maxHealth;
+       
         UpdateHealthText();
+    }
+
+    public void Update()
+    {
+        UpdateHealthText();
+
+       
     }
 
     public void TakeDamage(int damageAmount)
@@ -38,19 +43,18 @@ public class HealthDamage : MonoBehaviour
     {
         Debug.Log("Player died!");
         gameObject.SetActive(false);
-        //Destroy(gameObject);
+        
     }
 
-    private void OnCollisionEnter(Collision other)
+    public void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.CompareTag("Heart"))
+        if (other.gameObject.CompareTag("HeartPump"))
         {
-            if (currentHealth < maxHealth)
-            {
-                
-                Destroy(other.gameObject);
-                UpdateHealthText();
-            }
+            Debug.Log("Gain Heart");
+            UpdateHealthText();
+            TakeDamage(-20);
+            Destroy(other.gameObject);
+            
         }
     }
 
@@ -59,7 +63,7 @@ public class HealthDamage : MonoBehaviour
         heartNumberText.text = currentHealth.ToString();
     }
 
-   
+
 
     public IEnumerator SadHeartDuration()
     {

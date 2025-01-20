@@ -34098,9 +34098,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   whatever:
-  - {fileID: 788280932813310811, guid: 4f24d4da169ff43db912494b0384bdaf, type: 3}
-  - {fileID: 3883093393647860654, guid: 3fc587c9b7366493dae3731381e1fe98, type: 3}
-  dropChance: 0.33
+  - {fileID: 3952707826769130179, guid: 72019e69f8bef409cab526a54fb9828e, type: 3}
+  dropChance: 0.1
 --- !u!1 &5101651281229963638
 GameObject:
   m_ObjectHideFlags: 0

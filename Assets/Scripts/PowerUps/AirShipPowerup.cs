@@ -5,8 +5,9 @@ using UnityEngine;
 public class AirShipPowerup : BasePowerup
 {
     private GameObject gruAirShip;
+    
 
-    public SkinnedMeshRenderer skin;
+    public GameObject skin;
 
     public GameObject fireTrail1;
     public GameObject fireTrail2;
@@ -15,7 +16,7 @@ public class AirShipPowerup : BasePowerup
     {
         fireTrail1.SetActive(false);
         fireTrail2.SetActive(false);
-        skin.enabled = false;
+        skin.SetActive(false);
 
         gruAirShip = GameObject.Find("ActiveGruAirShip").transform.Find("GruAirShip").gameObject;
 

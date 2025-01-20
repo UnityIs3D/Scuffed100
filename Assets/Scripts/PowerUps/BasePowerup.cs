@@ -23,11 +23,8 @@ public class BasePowerup : MonoBehaviour
             }
             Timer = Duration;
             StartPowerup();
-
-
-
-
         }
+
     }
 
     protected void SetIcon(GameObject icon)

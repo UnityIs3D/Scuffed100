@@ -9,6 +9,7 @@ public class CubeExplode : MonoBehaviour
     public float radius = 2f;
     public GameObject explosionEffect;
 
+
     private void Start()
     {
         Invoke("Main", delay);
@@ -73,8 +74,8 @@ public class CubeExplode : MonoBehaviour
             FixedJoint joint = gameObject.AddComponent<FixedJoint>();
             joint.connectedBody = other.rigidbody;
 
-            
-           
+
+
         }
     }
 }
@@ -82,7 +83,7 @@ public class CubeExplode : MonoBehaviour
 // Giving the miniCubes a script to handle collisions with EvilMinion
 public class CubeCollisionHandler : MonoBehaviour
 {
-    
+
 
     private bool scriptEnabled = false;
 
@@ -93,7 +94,7 @@ public class CubeCollisionHandler : MonoBehaviour
 
     private void Update()
     {
-        Destroy(gameObject , 5);
+        Destroy(gameObject, 5);
     }
 
     private void OnCollisionStay(Collision other)
@@ -108,7 +109,7 @@ public class CubeCollisionHandler : MonoBehaviour
                 enemy.OnHit();
             }
 
-           
+
         }
     }
 }

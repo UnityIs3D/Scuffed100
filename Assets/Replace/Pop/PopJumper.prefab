@@ -782,6 +782,8 @@ MonoBehaviour:
   maxHealth: 1
   minecraftSound: {fileID: 5092441064995650621}
   screenBloodEffect: {fileID: 5693074073816479831}
+  greenBody: {fileID: 4033524950095439985, guid: f9c08e3bf3cc147adbce78a63b849190,
+    type: 3}
   replacement: {fileID: 7013189956170328450, guid: 15146d625e65048f682a5bd3df1fbaf8,
     type: 3}
   hurtHayden: 3
@@ -2163,7 +2165,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1331144291575188466, guid: d1c7a85c797e3402fad88a31b80bee83, type: 3}
+  - {fileID: 2100000, guid: 23fbc0f113ca2492182a2d44c81634ba, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

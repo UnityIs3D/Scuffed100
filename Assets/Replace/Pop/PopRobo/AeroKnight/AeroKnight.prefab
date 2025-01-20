@@ -35034,6 +35034,8 @@ MonoBehaviour:
   anim: {fileID: 5824485171977156340}
   laserFire: {fileID: 7312769966360672561}
   laserActivationDistance: 20
+  deadBody: {fileID: 4967174108684683414, guid: 6d356f337f213456e8f26c21b667ed54,
+    type: 3}
 --- !u!114 &893413510353920890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35050,6 +35052,8 @@ MonoBehaviour:
   maxHealth: 3
   minecraftSound: {fileID: 4713679014558161018}
   screenBloodEffect: {fileID: 7777903684499250631}
+  greenBody: {fileID: 6198506183186399486, guid: 439e2658e7c14471a9906540d40add52,
+    type: 3}
   hurtHadyen: 10
   deadBody: {fileID: 4967174108684683414, guid: 6d356f337f213456e8f26c21b667ed54,
     type: 3}
@@ -45765,6 +45769,7 @@ MonoBehaviour:
   maxHealth: 0
   minecraftSound: {fileID: 4664612526797228294}
   screenBloodEffect: {fileID: 7777903684499250631}
+  greenBody: {fileID: 0}
   replacementDeadBadGuy: {fileID: 3812330368933624929, guid: 8ed6ae85cdab640f79b9e18eabcd9ddd,
     type: 3}
   knockHaydenForce: 120
